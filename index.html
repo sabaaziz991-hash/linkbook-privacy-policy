@@ -1,175 +1,170 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Linkbook</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        .container {
-            background-color: white;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #2c3e50;
-            border-bottom: 3px solid #3498db;
-            padding-bottom: 10px;
-        }
-        h2 {
-            color: #34495e;
-            margin-top: 30px;
-        }
-        .summary {
-            background-color: #e8f4f8;
-            border-left: 4px solid #3498db;
-            padding: 15px;
-            margin: 20px 0;
-        }
-        .summary ul {
-            margin: 10px 0;
-            padding-left: 20px;
-        }
-        .highlight {
-            background-color: #fff9e6;
-            padding: 2px 6px;
-            border-radius: 3px;
-            font-weight: 600;
-        }
-        .last-updated {
-            color: #7f8c8d;
-            font-style: italic;
-        }
-        ul {
-            line-height: 1.8;
-        }
-        strong {
-            color: #2c3e50;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LinkBook Support and Privacy Policy</title>
+  <style>
+    :root {
+      --bg-1: #f5efe4;
+      --bg-2: #f9f4ea;
+      --card: #fbf7ef;
+      --text: #1f1a15;
+      --muted: #5d5043;
+      --accent: #ba6a38;
+      --border: rgba(0, 0, 0, 0.08);
+      --radius: 16px;
+      --shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: var(--text);
+      background: linear-gradient(160deg, var(--bg-1), var(--bg-2));
+      line-height: 1.65;
+    }
+
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 28px 16px 42px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 22px;
+      margin-bottom: 14px;
+    }
+
+    h1, h2, h3 { margin: 0 0 10px; line-height: 1.2; }
+    h1 { font-size: 30px; letter-spacing: -0.01em; }
+    h2 { font-size: 22px; margin-top: 6px; }
+    h3 { font-size: 16px; margin-top: 18px; color: var(--muted); }
+
+    p { margin: 0 0 12px; }
+    ul, ol { margin: 0 0 12px 20px; padding: 0; }
+
+    .muted { color: var(--muted); }
+
+    .pill {
+      display: inline-block;
+      border: 1px solid var(--border);
+      background: #f4eadb;
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: 12px;
+      margin-right: 6px;
+      margin-bottom: 6px;
+      color: #6b5a49;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    @media (min-width: 760px) {
+      .grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 18px 0;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Privacy Policy for Linkbook</h1>
-        <p class="last-updated"><strong>Last Updated:</strong> November 29, 2025</p>
+  <main class="wrap">
+    <section class="card">
+      <h1>LinkBook Support and Privacy Policy</h1>
+      <p class="muted"><strong>Last updated:</strong> February 14, 2026</p>
+      <p>LinkBook is a local-first link manager for iOS with optional premium features such as advanced Smart Cards, Reader tools, and optional iCloud Sync.</p>
+      <div>
+        <span class="pill">No ad tracking</span>
+        <span class="pill">No data sale</span>
+        <span class="pill">Local-first storage</span>
+        <span class="pill">Optional iCloud sync</span>
+      </div>
+    </section>
 
-        <div class="summary">
-            <h3>📋 Summary (TL;DR)</h3>
-            <ul>
-                <li>✅ Your data stays on your device</li>
-                <li>✅ Nothing is sent to servers</li>
-                <li>✅ No tracking or analytics</li>
-                <li>✅ No ads</li>
-                <li>✅ Everything is encrypted locally</li>
-                <li>✅ You have complete control</li>
-            </ul>
-        </div>
-
-        <h2>Overview</h2>
-        <p>Linkbook ("we", "our", or "the app") is committed to protecting your privacy. This Privacy Policy explains how Linkbook handles your data.</p>
-
-        <h2>Data Collection</h2>
-        <p class="highlight">We do NOT collect, transmit, or share any personal data.</p>
-        <p>Linkbook is a completely local, offline application. All data stays on your device.</p>
-
-        <h2>What Data is Stored Locally</h2>
-        <p>The following data is stored <strong>only on your device</strong>:</p>
+    <section class="grid">
+      <section class="card">
+        <h2>Support</h2>
+        <p>If you need help, include your iOS version, app version, and a short video or screenshot so we can reproduce the issue faster.</p>
         <ul>
-            <li>Links you save (URLs, titles, descriptions)</li>
-            <li>Tags and folders you create</li>
-            <li>Preview images fetched from websites</li>
-            <li>App settings and preferences</li>
+          <li>GitHub profile: <a href="https://github.com/sabaaziz991-hash" rel="noopener noreferrer">github.com/sabaaziz991-hash</a></li>
+          <li>Privacy page repo: <a href="https://github.com/sabaaziz991-hash/linkbook-privacy-policy" rel="noopener noreferrer">linkbook-privacy-policy</a></li>
         </ul>
+      </section>
 
-        <h2>Data Storage</h2>
+      <section class="card">
+        <h2>Quick Privacy Summary</h2>
         <ul>
-            <li>All data is stored locally on your Android device</li>
-            <li>Database is encrypted using industry-standard SQLCipher encryption</li>
-            <li>Data is protected by your device's security (lock screen, encryption, etc.)</li>
-            <li><strong>No cloud storage or synchronization</strong></li>
-            <li><strong>No data leaves your device</strong></li>
+          <li>Your library is stored locally on your device by default.</li>
+          <li>No advertising SDKs and no third-party tracking SDKs are used.</li>
+          <li>Core app database is encrypted with SQLCipher.</li>
+          <li>iCloud Sync is optional and only runs when you enable it.</li>
         </ul>
+      </section>
+    </section>
 
-        <h2>Network Usage</h2>
-        <p>Linkbook uses network/internet connection only for:</p>
-        <ul>
-            <li>Fetching website metadata (title, description, preview image) when you save a link</li>
-            <li>This information is fetched directly from the website URL you provide</li>
-            <li>No data is sent to our servers (we don't have any servers)</li>
-        </ul>
+    <section class="card">
+      <h2>Privacy Policy</h2>
 
-        <h2>Third-Party Services</h2>
-        <p>Linkbook does <strong>NOT</strong> use:</p>
-        <ul>
-            <li>Analytics services</li>
-            <li>Crash reporting services</li>
-            <li>Advertising networks</li>
-            <li>Cloud storage services</li>
-            <li>Any third-party data collection tools</li>
-        </ul>
+      <h3>1) Data We Store On Device</h3>
+      <p>LinkBook stores data locally to provide app functionality, including saved links, titles, descriptions, folders, tags, notes, favorites/read state, Reader data (such as offline article text and highlights), and cached preview media.</p>
 
-        <h2>Children's Privacy</h2>
-        <p>Linkbook does not knowingly collect any information from children. Since all data is stored locally and we don't collect any data, the app is safe for users of all ages.</p>
+      <h3>2) Optional iCloud Sync (Premium)</h3>
+      <p>If you enable Sync, LinkBook syncs your library through Apple CloudKit in your personal iCloud account. Sync is optional and can be disabled at any time in the app.</p>
 
-        <h2>Data Security</h2>
-        <ul>
-            <li>All data is encrypted using SQLCipher with AES-256 encryption</li>
-            <li>Encryption keys are stored securely using Android Keystore</li>
-            <li>Only you have access to your data on your device</li>
-        </ul>
+      <h3>3) Network Usage</h3>
+      <p>LinkBook uses internet access only for product features you trigger, such as:</p>
+      <ul>
+        <li>Fetching webpage metadata/previews for links you save.</li>
+        <li>Refreshing Smart Card data from supported sources.</li>
+        <li>Loading original links and media when you choose to open them.</li>
+      </ul>
 
-        <h2>Your Rights</h2>
-        <p>Since all data is stored locally on your device, you have complete control:</p>
-        <ul>
-            <li><strong>Access:</strong> All your data is accessible within the app</li>
-            <li><strong>Delete:</strong> Uninstalling the app removes all data</li>
-            <li><strong>Export:</strong> You can view all saved links within the app</li>
-            <li><strong>Control:</strong> You own and control all your data</li>
-        </ul>
+      <h3>4) Reader Insights and On-Device AI</h3>
+      <p>When available on supported Apple devices/OS versions, Reader Insights features use Apple on-device language models. Model processing is performed on-device by Apple frameworks.</p>
 
-        <h2>Data Deletion</h2>
-        <p>To delete all your data:</p>
-        <ol>
-            <li>Uninstall the Linkbook app</li>
-            <li>All data will be permanently removed from your device</li>
-        </ol>
-        <p>Alternatively, you can delete individual links, tags, or folders within the app.</p>
+      <h3>5) In-App Purchases</h3>
+      <p>Premium purchase and restore flows are handled through Apple StoreKit. We do not process your payment card details directly.</p>
 
-        <h2>Permissions</h2>
-        <p>Linkbook requires the following Android permissions:</p>
-        <ul>
-            <li><strong>Internet Access:</strong> To fetch website metadata (titles, descriptions, images) when you save links</li>
-            <li><strong>Storage:</strong> To save and retrieve your locally stored links</li>
-        </ul>
-        <p>These permissions are used <strong>only</strong> for app functionality, not for data collection.</p>
+      <h3>6) Tracking, Ads, and Analytics</h3>
+      <p>LinkBook does not use ad SDKs or third-party tracking SDKs. The app does not use external analytics services for profiling or cross-app tracking.</p>
 
-        <h2>Changes to This Policy</h2>
-        <p>We may update this Privacy Policy from time to time. Any changes will be posted within the app and on this page. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+      <h3>7) Security</h3>
+      <p>The core database is encrypted using SQLCipher. Encryption keys are stored using platform-secure key storage (Keychain). Device-level protections also apply (for example, device passcode and OS data protection).</p>
 
-        <h2>Open Source</h2>
-        <p>Linkbook's privacy practices can be verified through its implementation. We believe in transparency.</p>
+      <h3>8) Your Controls</h3>
+      <ul>
+        <li>Delete links, notes, tags, folders, and highlights from inside the app.</li>
+        <li>Disable iCloud Sync if you do not want cloud replication.</li>
+        <li>Uninstalling the app removes local app data from that device.</li>
+      </ul>
 
-        <h2>Contact</h2>
-        <p>If you have questions about this Privacy Policy, please contact:</p>
-        <ul>
-            <li><strong>Email:</strong> <a href="mailto:your-email@example.com">your-email@example.com</a></li>
-        </ul>
+      <h3>9) Children</h3>
+      <p>LinkBook is not designed to collect personal data from children. The app is local-first and does not include social features or user-to-user messaging.</p>
 
-        <hr style="margin: 40px 0; border: none; border-top: 1px solid #ddd;">
+      <h3>10) Changes To This Policy</h3>
+      <p>We may update this page as features evolve. The latest version is always published here with the updated date.</p>
 
-        <p style="text-align: center; color: #7f8c8d; font-size: 14px;">
-            This privacy policy is effective as of November 29, 2025.<br>
-            <strong>Linkbook</strong> - Your Personal Link Manager
-        </p>
-    </div>
+      <hr />
+      <p class="muted">If you need this policy in another language, contact support and include your preferred language.</p>
+    </section>
+  </main>
 </body>
 </html>
